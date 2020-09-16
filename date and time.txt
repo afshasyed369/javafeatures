@@ -1,0 +1,10 @@
+import java.time.*;
+public class DateTime{
+ppublic static void main(String[] args) {
+LocalDatedate=LocalDate.now();
+System.out.println(date);
+LocalTimetime=LocalTime.now();
+System.out.println(time);
+}
+}
+ 

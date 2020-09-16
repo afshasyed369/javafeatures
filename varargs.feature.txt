@@ -1,0 +1,13 @@
+public class jdk5_Varargs {
+public void getData(string...values) {
+	for(String string:vallues) {
+		System.out.println(string);
+	}
+    }
+   public ststic void main(String[] args) {
+	jdk5_Varargs varargs = new jdk5_Varargs();
+	varargs.getData("Apple","Banana","Cucumber","Radish");
+	String[] vargs = new String[] {"Radia","Cloud","Hewlett","Pakar"}
+	varargs.getData(vargs);
+    }
+}

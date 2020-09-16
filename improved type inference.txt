@@ -1,0 +1,6 @@
+public class ElvisOperatorTest {
+public static void main(String[] args) {
+@SupressWarnings("unused")
+Map params = new HashMap&lt ;&gt;() ;
+}
+}

@@ -1,0 +1,46 @@
+public class jdk5_Generics {
+List<String> genericList = new ArrayList<String>();
+
+public static void main(String[] args) {
+jdk5_Generics jGenerics = newjdk5_Generics();
+//generic for type safety
+List<String> jGenerics = jGenerics.genericList;
+jGenericsList.add("safa");
+jGenericsList.add("samra");
+jGenericsList.add("syed");
+for(String str:jGenericsList) {
+System.out.println(str);
+}
+//generic variables - class and method generic templates
+List<? extends Vehicle> jGenericObjList = new ArrayList();
+Vehicle car = new car();
+RentVehicle<vehicle> rentvehicle = new RentCar<car>();
+rentVehicle.rentOut(car);
+}
+}
+class Vehicle {
+Integer regn;
+String type;
+public Integer getRegn() {
+return regn;
+}
+public void setRegn(Integer regn) {
+this.regn = regn;
+}
+public String getType () {
+return type;
+}
+public void setType(String type){
+this.type = type;
+}
+}
+class Car extends Vehicle {
+}
+interface RentVehicle <T extends Vehicle> {
+public void rentOut(T Vehicle);
+}
+class RentCar<Car> implements RentVehicle{
+public void rentOut(Vehicle vehicle) {
+System.out.println("Rent Vehicle => Rent Car")'
+}
+}

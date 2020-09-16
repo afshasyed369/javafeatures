@@ -1,0 +1,22 @@
+public class jdk_5Autoboxing {
+
+Integer integer = new Ineger(50);
+public void setValue(int integer) {
+}
+public Integer getValue() {
+return integer;
+}
+public Float getFloat() {
+return 6.0f;
+}
+/**
+*@param args
+*/
+public static void main(String[] args) {
+jdk5_Autoboxing autoboxing = new jdk5_Autoboxing(); // autounbox
+autoboxing.setValue(new Integer(5));
+int x = autoboxing.getValue();
+//this is not valid => autounboxing - upcasting- autoboxing
+//Double y = autoboxing.getFloat();
+}
+}

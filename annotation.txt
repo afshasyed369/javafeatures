@@ -1,0 +1,8 @@
+package jdk5.features;
+public class jdk5_Annotation_Usage {
+@jdk5_annotation_source
+public String myMessage;
+public void annotated(){
+System.out.println(myMessage);
+}
+}

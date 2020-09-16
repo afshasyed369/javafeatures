@@ -1,0 +1,21 @@
+import static jdk5.features.jdk5_StaticImport_Source.product;
+public class jdk5_StaticImport {
+public static void main(String[] args) {
+System.out.println(product);
+}
+
+
+
+
+
+package jdk5.features;
+public class jdk5_StaticImport_Source {
+public static final String product = "radia-cloud";
+public static final String version = "09.20.0000";
+public static void setup() {
+System.out.println("Setting up the radia Server");
+}
+public static void init() {
+System.out.println("Initializing the Radia Server");
+}
+}

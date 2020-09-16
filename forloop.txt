@@ -1,0 +1,32 @@
+public class jdk5_EnhancedFor {
+public static void main(String[] args) {
+jdk5_EnhancedFor ef = new jdk_5EnhancedFor();
+List<Animal> animals = new ArrayList();
+Animal animal = new Animal();
+animals.add(animal);
+animal = new Dog();
+animals.add(animal);
+animal = new Cat();
+animals.add(animal);
+animal = new Animal();
+animals.add(animal);
+for(Animal animL animals) {
+anim.print();
+}
+}
+}
+class Animal {
+public void print() {
+System.out.println("Animal");
+}
+}
+class Dog extends Animal {
+public void print() {
+System.out.println("Dog");
+}
+}
+class Cat extends Animal {
+public void print() {
+System.out.println("Cat");
+}
+}
